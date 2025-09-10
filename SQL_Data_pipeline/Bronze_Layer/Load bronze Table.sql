@@ -66,3 +66,4 @@ end catch
 end;
 
 exec bronze.load_customer_churn
+
