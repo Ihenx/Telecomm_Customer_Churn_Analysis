@@ -16,13 +16,13 @@ This project addresses these questions by building a Medallion Architecture data
 
 
 ## Medallion Architecture
-🔹 Bronze Layer
+### 🔹 Bronze Layer
 
 * Raw datasets are ingested into SQL Server.
 
 * Acts as the landing zone for all customer data.
 
-🔸 Silver Layer
+### 🔸 Silver Layer
 
 Data cleaning and transformation:
 
@@ -34,7 +34,7 @@ Data cleaning and transformation:
 
 Produces structured data ready for downstream use.
 
-🟡 Gold Layer
+### 🟡 Gold Layer
 
 Three curated views were created for different analytical purposes:
 
@@ -89,6 +89,11 @@ Customers with status: Joined.
 
   ### Data insight
   <img width="580" height="462" alt="image" src="https://github.com/user-attachments/assets/d581f368-eb72-4621-8038-5e27a7a1a69b" />
+  * Data is highly imbalanced, ratio = 72 percent
+* So we analyse the data with other features while taking the target values separately to get some insights.
+
+  [To access the full Data Exploration Report]()
+
   
 
  
