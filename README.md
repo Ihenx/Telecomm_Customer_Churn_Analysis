@@ -92,7 +92,7 @@ Customers with status: Joined.
   * Data is highly imbalanced, ratio = 72 percent
 * So we analyse the data with other features while taking the target values separately to get some insights.
 
-  [To access the full Data Exploration Report]()
+  [To access the full Data Exploration Report](https://github.com/Ihenx/Telecomm_Customer_Churn_Analysis/blob/main/Data_Exploration_and_prediction/Customer%20Data%20Exploration.ipynb)
 
   
 
