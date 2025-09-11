@@ -16,6 +16,10 @@ This project addresses these questions by building a Medallion Architecture data
 
 
 ## Medallion Architecture
+
+
+![Telecomm churn](https://github.com/user-attachments/assets/93dac3f0-d16c-49f2-83ab-5f3a4182cf71)
+
 ### 🔹 Bronze Layer
 
 * Raw datasets are ingested into SQL Server.
@@ -128,7 +132,25 @@ Used cross-validation to evaluate performance and identify the most suitable mod
 
 * Applied the optimized model to the gold.customer_joined dataset to predict which newly joined customers are at the highest risk of churn.
 
-  [You can access the full Machine learning Report here]()
+  [You can access the full Machine learning Report here](https://github.com/Ihenx/Telecomm_Customer_Churn_Analysis/blob/main/Data_Exploration_and_prediction/Machine%20Learning.ipynb)
+
+  ### Repository Structure
+ ``` 
+├── sql/
+│   ├── bronze_load.sql        # Scripts for loading raw datasets
+│   ├── silver_cleaning.sql    # Data cleaning and transformations
+│   ├── gold_views.sql         # Creation of gold layer views
+│
+├── powerbi/
+│   └── customer_churn.pbix    # Power BI dashboard
+│
+├── machine_learning/
+│   ├── model_training.ipynb   # Notebook for training and evaluation
+│   ├── churn_prediction.pkl   # Saved best model (if exported)
+│   └── requirements.txt       # Dependencies for ML environment
+│
+├── README.md   
+  ```
 
   
 
